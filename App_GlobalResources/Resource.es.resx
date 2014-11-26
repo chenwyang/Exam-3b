@@ -117,7 +117,28 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Course" xml:space="preserve">
+    <value>Diseño y Desarrollo de Software</value>
+  </data>
+  <data name="Female" xml:space="preserve">
+    <value>Femenino</value>
+  </data>
+  <data name="Gender" xml:space="preserve">
+    <value>Yo soy:</value>
+  </data>
+  <data name="Graduation" xml:space="preserve">
+    <value>Tengo la intención de graduarse en:</value>
+  </data>
+  <data name="Male" xml:space="preserve">
+    <value>Masculino</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Mi nombre es:</value>
+  </data>
+  <data name="Salary" xml:space="preserve">
+    <value>Cuando me gradúe, espero poder ganar</value>
+  </data>
   <data name="Welcome" xml:space="preserve">
-    <value>Bienvenida</value>
+    <value>Bienvenido a MSCI: 3300</value>
   </data>
 </root>

@@ -117,10 +117,28 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Button1.Text" xml:space="preserve">
-    <value>Submit</value>
+  <data name="Course" xml:space="preserve">
+    <value>تصميم وتطوير البرمجيات</value>
   </data>
-  <data name="Label1.Text" xml:space="preserve">
-    <value>Please choose your language: </value>
+  <data name="Female" xml:space="preserve">
+    <value>أنثى</value>
+  </data>
+  <data name="Gender" xml:space="preserve">
+    <value>أنا:</value>
+  </data>
+  <data name="Graduation" xml:space="preserve">
+    <value>أخطط لتخريج على:</value>
+  </data>
+  <data name="Male" xml:space="preserve">
+    <value>ذكر</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>اسمي:</value>
+  </data>
+  <data name="Salary" xml:space="preserve">
+    <value>عندما تخرجي، وآمل أن كسب</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>مرحبا بكم في MSCI: 3300</value>
   </data>
 </root>

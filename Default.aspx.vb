@@ -14,9 +14,5 @@ Partial Class _Default
 
     End Sub
 
-    Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 
-        Dim money As Decimal = 65545.42
-        currencyLabel.Text = String.Format("{0:C}", money)
-    End Sub
 End Class
