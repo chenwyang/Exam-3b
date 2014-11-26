@@ -1,4 +1,4 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Default.aspx.vb" Inherits="_Default" Culture="auto:en-US" UICulture="auto" %>
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Info.aspx.vb" Inherits="_Default" Culture="auto:en-US" UICulture="auto" %>
 
 <!DOCTYPE html>
 
@@ -39,27 +39,17 @@
               </td>
               <td class="auto-style1">
 
-                  <asp:Label ID="Name" runat="server" Text="<%$ Resources:Resource, Name %>"></asp:Label>
-&nbsp;<asp:TextBox ID="tb_Name" runat="server"></asp:TextBox>
-                  &nbsp;<br />
-                  <br />
-                  <asp:Label ID="Gender" runat="server" Text="<%$ Resources:Resource, Gender %>"></asp:Label>
-&nbsp;<asp:RadioButton ID="Female" runat="server" Text="<%$ Resources:Resource, Female %>" />
-                  <asp:RadioButton ID="Male" runat="server" Text="<%$ Resources:Resource, Male %>" />
+&nbsp;<asp:Label ID="lbl_Name" runat="server" Text="Label"></asp:Label>
                   <br />
                   <br />
-                  <asp:Label ID="Graduation" runat="server" Text="<%$ Resources:Resource, Graduation %>"></asp:Label>
-                  <br />
-        <asp:Calendar ID="Calendar1" runat="server"></asp:Calendar>
-                  <br />
-                  <asp:Label ID="Salary" runat="server" Text="<%$ Resources:Resource, Salary %>"></asp:Label>
-&nbsp;<asp:TextBox ID="tb_Salary" runat="server"></asp:TextBox>
+&nbsp;<br />
                   <br />
                   <br />
-                  <asp:Button ID="Submit" runat="server" Text="<%$ Resources:Resource, Submit %>" />
+                  <br />
+&nbsp;<br />
+                  <br />
 
               </td>
-            
           </tr>
 
       </table>
