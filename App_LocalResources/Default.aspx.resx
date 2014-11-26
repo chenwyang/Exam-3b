@@ -120,7 +120,4 @@
   <data name="Button1.Text" xml:space="preserve">
     <value>Submit</value>
   </data>
-  <data name="Label1.Text" xml:space="preserve">
-    <value>Please choose your language: </value>
-  </data>
 </root>

@@ -25,14 +25,16 @@
           <tr>
               <td>
 
-        <asp:Label ID="Label1" runat="server" Text="Label" meta:resourceKey="Label1"></asp:Label>
+                  <asp:Label ID="Language" runat="server" Text="<%$ Resources:Resource, Language %>"></asp:Label>
         
-        <asp:CheckBoxList ID="CheckBoxList1" runat="server" Width="186px">
-            <asp:ListItem Selected="True">Arabic</asp:ListItem>
-            <asp:ListItem>Chinese</asp:ListItem>
-            <asp:ListItem>English</asp:ListItem>
-            <asp:ListItem>Spanish</asp:ListItem>
-        </asp:CheckBoxList>
+                  <br />
+                  <asp:CheckBox ID="Arabic" runat="server" Text="<%$ Resources:Resource, Arabic %>" />
+                  <br />
+                  <asp:CheckBox ID="Chinese" runat="server" Text="<%$ Resources:Resource, Chinese %>" />
+                  <br />
+                  <asp:CheckBox ID="English" runat="server" Text="<%$ Resources:Resource, English %>" />
+                  <br />
+                  <asp:CheckBox ID="Spanish" runat="server" Text="<%$ Resources:Resource, Spanish %>" />
 
               </td>
               <td class="auto-style1">
@@ -54,7 +56,7 @@
 &nbsp;<asp:TextBox ID="tb_Salary" runat="server"></asp:TextBox>
                   <br />
                   <br />
-        <asp:Button ID="Button1" runat="server" Text="Button" meta:resourceKey="Button1"/>
+                  <asp:Button ID="Submit" runat="server" Text="<%$ Resources:Resource, Submit %>" />
 
               </td>
           </tr>

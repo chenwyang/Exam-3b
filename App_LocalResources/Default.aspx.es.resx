@@ -120,7 +120,4 @@
   <data name="Button1.Text" xml:space="preserve">
     <value>Presentar</value>
   </data>
-  <data name="Label1.Text" xml:space="preserve">
-    <value>Por favor, elige tu idioma: </value>
-  </data>
 </root>

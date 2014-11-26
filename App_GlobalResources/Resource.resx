@@ -117,8 +117,17 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Arabic" xml:space="preserve">
+    <value>Arabic</value>
+  </data>
+  <data name="Chinese" xml:space="preserve">
+    <value>Chinese</value>
+  </data>
   <data name="Course" xml:space="preserve">
     <value>Software Design and Development</value>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>English</value>
   </data>
   <data name="Female" xml:space="preserve">
     <value>Female</value>
@@ -129,6 +138,9 @@
   <data name="Graduation" xml:space="preserve">
     <value>I plan to graduate on:</value>
   </data>
+  <data name="Language" xml:space="preserve">
+    <value>Please choose your language:</value>
+  </data>
   <data name="Male" xml:space="preserve">
     <value>Male</value>
   </data>
@@ -137,6 +149,12 @@
   </data>
   <data name="Salary" xml:space="preserve">
     <value>When I graduate, I hope to earn</value>
+  </data>
+  <data name="Spanish" xml:space="preserve">
+    <value>Spanish</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Submit</value>
   </data>
   <data name="Welcome" xml:space="preserve">
     <value>Welcome to MSCI:3300</value>

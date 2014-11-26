@@ -120,7 +120,4 @@
   <data name="Button1.Text" xml:space="preserve">
     <value>عرض</value>
   </data>
-  <data name="Label1.Text" xml:space="preserve">
-    <value>الرجاء اختيار لغتك:</value>
-  </data>
 </root>
