@@ -62,6 +62,7 @@
                   <br />
                   <asp:Label ID="lbl_visit" runat="server" Text="<%$ Resources:Resource, Visit %>"></asp:Label>
 &nbsp;<asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="https://github.com/chenwyang/">Github</asp:HyperLink>
+                  <asp:Label ID="Label2" runat="server" Text="."></asp:Label>
                   <br />
 &nbsp;<br />
                   <br />
