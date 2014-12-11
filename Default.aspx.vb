@@ -20,12 +20,10 @@ Partial Class _Default
         Dim name As String = tb_Name.Text
         Dim time As Date = Calendar1.SelectedDate
         Dim money As Decimal = tb_Salary.Text
-        ' tb_Salary.Text = String.Format("{0:C}", money)
+        tb_Salary.Text = String.Format("{0:C}", money)
         'lbl_Name.Text = name & time & money
 
     End Sub
 
-    Protected Sub Arabic_CheckedChanged(sender As Object, e As EventArgs) Handles Arabic.CheckedChanged
 
-    End Sub
 End Class

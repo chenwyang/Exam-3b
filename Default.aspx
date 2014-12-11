@@ -28,13 +28,17 @@
                   <asp:Label ID="Language" runat="server" Text="<%$ Resources:Resource, Language %>"></asp:Label>
         
                   <br />
-                  <asp:CheckBox ID="Arabic" runat="server" Text="<%$ Resources:Resource, Arabic %>" />
+              
+                  <asp:DropDownList ID="Language1" runat="server" AutoPostBack="true">
+                     
+                      <asp:ListItem Value="ar">Arabic</asp:ListItem>
+                      <asp:ListItem Value="zh-CN">Chinese</asp:ListItem>
+                      <asp:ListItem Value="en-US">English</asp:ListItem>
+                      <asp:ListItem Value="es">Spanish</asp:ListItem>
+                  </asp:DropDownList>
                   <br />
-                  <asp:CheckBox ID="Chinese" runat="server" Text="<%$ Resources:Resource, Chinese %>" />
                   <br />
-                  <asp:CheckBox ID="English" runat="server" Text="<%$ Resources:Resource, English %>" />
                   <br />
-                  <asp:CheckBox ID="Spanish" runat="server" Text="<%$ Resources:Resource, Spanish %>" />
 
               </td>
               <td class="auto-style1">
