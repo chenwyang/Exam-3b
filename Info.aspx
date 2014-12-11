@@ -41,8 +41,11 @@
 
 &nbsp;<asp:Label ID="lbl_Name" runat="server" Text="Label"></asp:Label>
                   <br />
+                  <asp:Label ID="lbl_Date" runat="server" Text="Label"></asp:Label>
                   <br />
-&nbsp;<br />
+                  <br />
+&nbsp;<asp:Label ID="lbl_Money" runat="server" Text="Label"></asp:Label>
+                  <br />
                   <br />
                   <br />
                   <br />

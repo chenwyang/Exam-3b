@@ -144,6 +144,12 @@
   <data name="Male" xml:space="preserve">
     <value>Male</value>
   </data>
+  <data name="Mr" xml:space="preserve">
+    <value>Mr.</value>
+  </data>
+  <data name="Ms" xml:space="preserve">
+    <value>Ms.</value>
+  </data>
   <data name="Name" xml:space="preserve">
     <value>My name is:</value>
   </data>

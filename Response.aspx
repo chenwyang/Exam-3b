@@ -1,4 +1,4 @@
-﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Default.aspx.vb" Inherits="_Default" Culture="auto:en-US" UICulture="auto" %>
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Response.aspx.vb" Inherits="_Default" Culture="auto:en-US" UICulture="auto" %>
 
 <!DOCTYPE html>
 
@@ -43,24 +43,17 @@
               </td>
               <td class="auto-style1">
 
-                  <asp:Label ID="Name" runat="server" Text="<%$ Resources:Resource, Name %>"></asp:Label>
-&nbsp;<asp:TextBox ID="tb_Name" runat="server"></asp:TextBox>
-                  &nbsp;<br />
+                  <asp:Label ID="lbl_Female" runat="server" Text="<%$ Resources:Resource, Ms %>"></asp:Label>
+&nbsp;<asp:Label ID="lbl_Male" runat="server" Text="<%$ Resources:Resource, Mr %>"></asp:Label>
                   <br />
-                  <asp:Label ID="Gender" runat="server" Text="<%$ Resources:Resource, Gender %>"></asp:Label>
-&nbsp;<asp:RadioButton ID="Female" runat="server" Text="<%$ Resources:Resource, Female %>" />
-                  <asp:RadioButton ID="Male" runat="server" Text="<%$ Resources:Resource, Male %>" />
+                  &nbsp;<asp:Label ID="lbl_Name" runat="server" Text="Label"></asp:Label>
                   <br />
+                  <asp:Label ID="lbl_Date" runat="server" Text="Label"></asp:Label>
                   <br />
-                  <asp:Label ID="Graduation" runat="server" Text="<%$ Resources:Resource, Graduation %>"></asp:Label>
+                  <asp:Label ID="lbl_Money" runat="server" Text="Label"></asp:Label>
                   <br />
-        <asp:Calendar ID="Calendar1" runat="server"></asp:Calendar>
+&nbsp;<br />
                   <br />
-                  <asp:Label ID="Salary" runat="server" Text="<%$ Resources:Resource, Salary %>"></asp:Label>
-&nbsp;<asp:TextBox ID="tb_Salary" runat="server"></asp:TextBox>
-                  <br />
-                  <br />
-                  <asp:Button ID="Submit" runat="server" Text="<%$ Resources:Resource, Submit %>" />
 
               </td>
 

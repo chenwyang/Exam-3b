@@ -16,12 +16,19 @@ Partial Class _Default
 
     Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
         Dim strName As String = Session("nameVariable")
-        ' source: stackoverflow.com/questions/11454943/how-can-i-pass-variables-or-values-from-one-asp-vb-code-page-to-another
         lbl_Name.Text = strName
+
+        Dim strTime As String = Session("timeVariable")
+        lbl_Date.Text = strTime
 
         Dim strMoney As String = Session("moneyVariable")
         lbl_Money.Text = strMoney
 
+        Dim strFemale As String = Session("femaleVariable")
+        lbl_Female.Text = strFemale
+
+        Dim strMale As String = Session("maleVariable")
+        lbl_Male.Text = strMale
 
     End Sub
 End Class

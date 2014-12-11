@@ -144,6 +144,12 @@
   <data name="Male" xml:space="preserve">
     <value>男</value>
   </data>
+  <data name="Mr" xml:space="preserve">
+    <value>先生</value>
+  </data>
+  <data name="Ms" xml:space="preserve">
+    <value>女士</value>
+  </data>
   <data name="Name" xml:space="preserve">
     <value>我的名字是：</value>
   </data>

@@ -144,6 +144,12 @@
   <data name="Male" xml:space="preserve">
     <value>ذكر</value>
   </data>
+  <data name="Mr" xml:space="preserve">
+    <value>السيد.</value>
+  </data>
+  <data name="Ms" xml:space="preserve">
+    <value>السيدة.</value>
+  </data>
   <data name="Name" xml:space="preserve">
     <value>اسمي:</value>
   </data>

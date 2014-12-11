@@ -21,9 +21,22 @@ Partial Class _Default
         Dim time As Date = Calendar1.SelectedDate
         Dim money As Decimal = tb_Salary.Text
         tb_Salary.Text = String.Format("{0:C}", money)
-        'lbl_Name.Text = name & time & money
 
+        Dim gender As String
+        If Female.Checked = True And Male.Checked = False Then
+            gender = "f"
+        ElseIf Male.Checked = True And Female.Checked = False Then
+            gender = "m"
+
+        End If
+
+        Session("nameVariable") = name
+        Session("moneyVariable") = tb_Salary.Text
+        Session("timeVariable") = time
+        Session("femaleVariable") = strFemale
+        Session("maleVariable") = strMale
+
+        Response.Redirect("Response.aspx")
     End Sub
-
 
 End Class
