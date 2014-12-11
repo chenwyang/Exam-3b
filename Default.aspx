@@ -21,7 +21,7 @@
         <br />
         <br />
         <br />
-      <table style="height: 200px; width: 596px">
+      <table style="height: 200px; width: 596px";  border="1";borderColor="#ffffff">
           <tr>
               <td>
 
