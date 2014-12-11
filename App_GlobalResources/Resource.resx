@@ -135,8 +135,20 @@
   <data name="Gender" xml:space="preserve">
     <value>I am: </value>
   </data>
+  <data name="Grad" xml:space="preserve">
+    <value>I hope you have a great day when you graduate on</value>
+  </data>
   <data name="Graduation" xml:space="preserve">
     <value>I plan to graduate on:</value>
+  </data>
+  <data name="Hello" xml:space="preserve">
+    <value>Hello,</value>
+  </data>
+  <data name="Hope" xml:space="preserve">
+    <value>I hope you earn </value>
+  </data>
+  <data name="Job" xml:space="preserve">
+    <value> as a salary in your first job!</value>
   </data>
   <data name="Language" xml:space="preserve">
     <value>Please choose your language:</value>
@@ -162,7 +174,13 @@
   <data name="Submit" xml:space="preserve">
     <value>Submit</value>
   </data>
+  <data name="Visit" xml:space="preserve">
+    <value>Please visit me on </value>
+  </data>
   <data name="Welcome" xml:space="preserve">
     <value>Welcome to MSCI:3300</value>
+  </data>
+  <data name="Wish" xml:space="preserve">
+    <value>I wish you well in your career after graduation. </value>
   </data>
 </root>

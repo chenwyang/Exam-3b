@@ -21,14 +21,17 @@ Partial Class _Default
         Dim strTime As String = Session("timeVariable")
         lbl_Date.Text = strTime
 
+
         Dim strMoney As String = Session("moneyVariable")
-        lbl_Money.Text = strMoney
+        Dim strMoney2 As Decimal = Convert.ToDecimal(strMoney)
+        lbl_Money.Text = String.Format("{0:C}", strMoney2)
 
-        Dim strFemale As String = Session("femaleVariable")
-        lbl_Female.Text = strFemale
 
-        Dim strMale As String = Session("maleVariable")
-        lbl_Male.Text = strMale
-
+        Dim strGender As String = Session("genderVariable")
+        If strGender = "f" Then
+            lbl_Male.Text = ""
+        ElseIf strGender = "m" Then
+            lbl_Female.Text = ""
+        End If
     End Sub
 End Class

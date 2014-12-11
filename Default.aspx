@@ -30,10 +30,9 @@
                   <br />
               
                   <asp:DropDownList ID="Language1" runat="server" AutoPostBack="true">
-                     
+                      <asp:ListItem Value="en-US">English</asp:ListItem>
                       <asp:ListItem Value="ar">Arabic</asp:ListItem>
                       <asp:ListItem Value="zh-CN">Chinese</asp:ListItem>
-                      <asp:ListItem Value="en-US">English</asp:ListItem>
                       <asp:ListItem Value="es">Spanish</asp:ListItem>
                   </asp:DropDownList>
                   <br />
@@ -48,8 +47,8 @@
                   &nbsp;<br />
                   <br />
                   <asp:Label ID="Gender" runat="server" Text="<%$ Resources:Resource, Gender %>"></asp:Label>
-&nbsp;<asp:RadioButton ID="Female" runat="server" Text="<%$ Resources:Resource, Female %>" />
-                  <asp:RadioButton ID="Male" runat="server" Text="<%$ Resources:Resource, Male %>" />
+&nbsp;<asp:RadioButton ID="Female" runat="server" Text="<%$ Resources:Resource, Female %>" GroupName="1" />
+                  <asp:RadioButton ID="Male" runat="server" Text="<%$ Resources:Resource, Male %>" GroupName="1" />
                   <br />
                   <br />
                   <asp:Label ID="Graduation" runat="server" Text="<%$ Resources:Resource, Graduation %>"></asp:Label>

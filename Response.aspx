@@ -30,10 +30,9 @@
                   <br />
               
                   <asp:DropDownList ID="Language1" runat="server" AutoPostBack="true">
-                     
+                      <asp:ListItem Value="en-US">English</asp:ListItem>
                       <asp:ListItem Value="ar">Arabic</asp:ListItem>
                       <asp:ListItem Value="zh-CN">Chinese</asp:ListItem>
-                      <asp:ListItem Value="en-US">English</asp:ListItem>
                       <asp:ListItem Value="es">Spanish</asp:ListItem>
                   </asp:DropDownList>
                   <br />
@@ -43,14 +42,26 @@
               </td>
               <td class="auto-style1">
 
+                  <asp:Label ID="lbl_hello" runat="server" Text="<%$ Resources:Resource, Hello %>"></asp:Label>
+
                   <asp:Label ID="lbl_Female" runat="server" Text="<%$ Resources:Resource, Ms %>"></asp:Label>
 &nbsp;<asp:Label ID="lbl_Male" runat="server" Text="<%$ Resources:Resource, Mr %>"></asp:Label>
-                  <br />
                   &nbsp;<asp:Label ID="lbl_Name" runat="server" Text="Label"></asp:Label>
                   <br />
-                  <asp:Label ID="lbl_Date" runat="server" Text="Label"></asp:Label>
                   <br />
+                  <asp:Label ID="lbl_grad" runat="server" Text="<%$ Resources:Resource, Grad %>"></asp:Label>
+                  <asp:Label ID="lbl_Date" runat="server" Text="Label"></asp:Label>
+                  <asp:Label ID="Label1" runat="server" Text="!"></asp:Label>
+                  <br />
+                  <br />
+                  <asp:Label ID="lbl_wish" runat="server" Text="<%$ Resources:Resource, Wish %>"></asp:Label>
+                  <asp:Label ID="lbl_hope" runat="server" Text="<%$ Resources:Resource, Hope %>"></asp:Label>
                   <asp:Label ID="lbl_Money" runat="server" Text="Label"></asp:Label>
+                  <asp:Label ID="lbl_job" runat="server" Text="<%$ Resources:Resource, Job %>"></asp:Label>
+                  <br />
+                  <br />
+                  <asp:Label ID="lbl_visit" runat="server" Text="<%$ Resources:Resource, Visit %>"></asp:Label>
+&nbsp;<asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="https://github.com/chenwyang/">Github</asp:HyperLink>
                   <br />
 &nbsp;<br />
                   <br />

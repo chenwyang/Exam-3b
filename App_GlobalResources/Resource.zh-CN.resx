@@ -135,8 +135,20 @@
   <data name="Gender" xml:space="preserve">
     <value>我是:</value>
   </data>
+  <data name="Grad" xml:space="preserve">
+    <value>我希望你有一个美好的一天当你毕业在</value>
+  </data>
   <data name="Graduation" xml:space="preserve">
     <value>我打算毕业的时间是：</value>
+  </data>
+  <data name="Hello" xml:space="preserve">
+    <value>您好,</value>
+  </data>
+  <data name="Hope" xml:space="preserve">
+    <value>我希望你赚</value>
+  </data>
+  <data name="Job" xml:space="preserve">
+    <value>在你的第一份工作的薪水！</value>
   </data>
   <data name="Language" xml:space="preserve">
     <value>请选择您的语言：</value>
@@ -162,7 +174,13 @@
   <data name="Submit" xml:space="preserve">
     <value>提交</value>
   </data>
+  <data name="Visit" xml:space="preserve">
+    <value>请访问我的</value>
+  </data>
   <data name="Welcome" xml:space="preserve">
     <value>欢迎来到MSCI：3300</value>
+  </data>
+  <data name="Wish" xml:space="preserve">
+    <value>祝你毕业之后你的职业生涯顺利。</value>
   </data>
 </root>
