@@ -21,7 +21,7 @@
         <br />
         <br />
         <br />
-      <table style="height: 200px; width: 596px";  border="1";borderColor="#ffffff">
+      <table style="height: 200px; width: 596px";  border="1"; borderColor="#ffffff">
           <tr>
               <td>
 
@@ -31,9 +31,9 @@
               
                   <asp:DropDownList ID="Language1" runat="server" AutoPostBack="true">
                       <asp:ListItem Value="en-US">English</asp:ListItem>
-                      <asp:ListItem Value="ar">Arabic</asp:ListItem>
-                      <asp:ListItem Value="zh-CN">Chinese</asp:ListItem>
-                      <asp:ListItem Value="es">Spanish</asp:ListItem>
+                      <asp:ListItem Value="ar">العربية</asp:ListItem>
+                      <asp:ListItem Value="zh-CN">中文</asp:ListItem>
+                      <asp:ListItem Value="es">Español</asp:ListItem>
                   </asp:DropDownList>
                   <br />
                   <br />
